@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccbe21b529972534594c501787d1c1ab, type: 3}
+  m_Name: ObjectPoolConfig
+  m_EditorClassIdentifier: 
+  prefabConfigs:
+  - poolTp: tttt
+    prefab: {fileID: 7769043766242251148, guid: 9a4e927bed779844ca8c4309faf1c228,
+      type: 3}
+    initialCount: 22
+    maxCount: 333
+    minRetainCount: 12
+    allowAutoExpand: 0
+    autoExpandRatio: 0
+  - poolTp: rrrr
+    prefab: {fileID: 7769043766242251148, guid: 9a4e927bed779844ca8c4309faf1c228,
+      type: 3}
+    initialCount: 11
+    maxCount: 22
+    minRetainCount: 1
+    allowAutoExpand: 0
+    autoExpandRatio: 0
